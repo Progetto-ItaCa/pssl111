@@ -19,4 +19,17 @@ Since it is outside term time, we expect it will not be a problem for most parti
   The first PSSL was held in Oxford, in May 1976. This is the 111th PSSL, following meetings in Tallinn, Leiden, Terrasini, and Athens.
 ]
 
+#html.elem("figure")[
+  #html.elem(
+    "img",
+    attrs: (
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_Panorama.jpg/512px-Bologna_Panorama.jpg?20180411072019",
+      alt: "Bologna Panorama",
+    ),
+  )
+  #html.elem(
+    "figcaption",
+  )["Bologna Panorama by #link("https://commons.wikimedia.org/wiki/User:Ввласенко")[Ввласенко, CC BY-SA 3.0, via Wikimedia Commons"]]
+]
+
 The local organizers are #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent) and #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna).
