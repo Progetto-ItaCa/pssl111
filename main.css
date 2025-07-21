@@ -33,3 +33,8 @@ mark {
   border-radius: 1em 0;
   padding: 0.3rem;
 }
+
+footer div {
+  display: flex;
+  justify-content: flex-end;
+}
