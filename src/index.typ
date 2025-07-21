@@ -6,7 +6,9 @@
   site: site,
 )
 
-The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on Sep 4th and Sep 5th 2025 in Bologna, Italy.
+#show highlight: it => html.elem("mark", it)
+
+The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on #highlight[Sep 4th and Sep 5th 2025] in Bologna, Italy.
 
 #html.elem("div", attrs: (class: "banner"))[
   #html.elem("figure")[
@@ -27,7 +29,7 @@ The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on
   ]
 ]
 
-Note that the dates are not on a weekend, but on a Thursday and Friday, unlike the usual PSSL tradition.
+Note that the dates are not on a weekend, but on a #highlight[Thursday and Friday], unlike the usual PSSL tradition.
 Since it is outside term time, we expect it will not be a problem for most participants.
 
 #html.elem("blockquote")[
@@ -35,12 +37,17 @@ Since it is outside term time, we expect it will not be a problem for most parti
     "https://ncatlab.org/nlab/show/Peripatetic+Seminar+on+Sheaves+and+Logic",
   )[PSSL]
   is a long-running series of informal gatherings covering all aspects of category theory and its applications, typically held over a weekend at a university in Europe.
-  The first PSSL was held in Oxford, in May 1976. This is the 111th PSSL, following meetings in Tallinn, Leiden, Terrasini, and Athens.
+  The first PSSL was held in Oxford, in May 1976.
+  This is the 111th PSSL, following meetings in
+  #link("https://www.ioc.ee/~amar/pssl110/")[Tallinn],
+  #link("https://dutchcats.github.io/PSSL-2024/")[Leiden],
+  #link("https://sites.google.com/view/beppemetere/pssl-108")[Terrasini], and
+  #link("https://sites.google.com/view/pssl-107-athens?pli=1/")[Athens].
 ]
 
 == Registration
 
-To register for PSSL 111, please fill out the following #link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form].
+To register for PSSL 111, please fill out the following #highlight[#link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form]].
 There are no registration fees, but we kindly ask that you complete the registration form by August 28th at the latest.
 
 When registering, you'll be given the option to submit a talk proposal.
@@ -50,4 +57,4 @@ We especially encourage PhD students and young researchers to submit their work.
 
 == Local organizers
 
-The local organizers are #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent) and #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna).
+The local organizers are #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent) and #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna). Please feel free to contact us if you have questions or suggestions.

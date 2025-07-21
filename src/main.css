@@ -22,3 +22,14 @@ nav ul {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+mark {
+  background: linear-gradient(
+    -100deg,
+    hsla(38, 92%, 87%, 0.2),
+    hsla(38, 92%, 87%, 0.7) 95%,
+    hsla(38, 92%, 87%, 0.1)
+  );
+  border-radius: 1em 0;
+  padding: 0.3rem;
+}
