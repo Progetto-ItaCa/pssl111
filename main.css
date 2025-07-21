@@ -1,0 +1,35 @@
+nav,
+nav ul {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 576px) {
+  nav,
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.banner {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+mark {
+  background: linear-gradient(
+    -100deg,
+    hsla(38, 92%, 87%, 0.2),
+    hsla(38, 92%, 87%, 0.7) 95%,
+    hsla(38, 92%, 87%, 0.1)
+  );
+  border-radius: 1em 0;
+  padding: 0.3rem;
+}
