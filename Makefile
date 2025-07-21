@@ -14,7 +14,8 @@ all: $(TGTS)
 out/%.html: src/%.typ $(LIBS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile \
-		--input filename=$(basename $(notdir $<)) \
+		--input filename="$(basename $(notdir $<))" \
+		--input timestamp="$(shell date -R)" \
 		$(TYPST_COMPILE_FLAGS) $< $@
 
 out/%.css: src/%.css

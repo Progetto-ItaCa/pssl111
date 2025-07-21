@@ -74,7 +74,19 @@
         page-nav(site, pages, filename)
       })
       html.elem("main", content)
-      html.elem("footer")
+      html.elem("footer", {
+        html.elem("div", {
+          html.elem("small")[
+            #link("https://github.com/progetto-itaca/pssl111")[site]
+            built using #link("https://typst.app")[typst]
+          ]
+        })
+        html.elem("div", {
+          html.elem("small")[
+            #sys.inputs.at("timestamp")
+          ]
+        })
+      })
     })
   })
 }
