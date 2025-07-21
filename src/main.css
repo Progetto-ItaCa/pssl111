@@ -11,3 +11,14 @@ nav ul {
     align-items: center;
   }
 }
+
+.banner {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

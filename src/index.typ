@@ -8,17 +8,23 @@
 
 The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on Sep 4th and Sep 5th 2025 in Bologna, Italy.
 
-#html.elem("figure")[
-  #html.elem(
-    "img",
-    attrs: (
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_Panorama.jpg/512px-Bologna_Panorama.jpg?20180411072019",
-      alt: "Bologna Panorama",
-    ),
-  )
-  #html.elem(
-    "figcaption",
-  )["Bologna Panorama by #link("https://commons.wikimedia.org/wiki/User:Ввласенко")[Ввласенко, CC BY-SA 3.0, via Wikimedia Commons"]]
+#html.elem("div", attrs: (class: "banner"))[
+  #html.elem("figure")[
+    #html.elem(
+      "img",
+      attrs: (
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_Panorama.jpg/512px-Bologna_Panorama.jpg?20180411072019",
+        alt: "Bologna Panorama by Ввласенко, CC BY-SA 3.0 via Wikimedia Commons",
+      ),
+    )
+    #html.elem("figcaption", {
+      html.elem("small")[
+        #link("https://commons.wikimedia.org/wiki/File:Bologna_Panorama.jpg")[
+          Bologna Panorama by Ввласенко, CC BY-SA 3.0 via Wikimedia Commons
+        ]
+      ]
+    })
+  ]
 ]
 
 Note that the dates are not on a weekend, but on a Thursday and Friday, unlike the usual PSSL tradition.
