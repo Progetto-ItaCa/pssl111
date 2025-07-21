@@ -14,7 +14,7 @@
     ))
     html.elem("link", attrs: (
       rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.red.min.css",
+      href: "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.red.min.css",
     ))
     for ss in css {
       html.elem("link", attrs: (rel: "stylesheet", href: ss))
@@ -35,6 +35,8 @@
           html.elem("a", attrs: (href: pages.index.href), site)
         })
       })
+    })
+    html.elem("ul", {
       for (filename, keys) in pages {
         if filename != current {
           html.elem("li", {
@@ -42,7 +44,7 @@
           })
         } else {
           html.elem("li", {
-            html.elem("button", attrs: (class: "secondary"), keys.title)
+            html.elem("button", keys.title)
           })
         }
       }
@@ -54,7 +56,7 @@
   site: "Untitled",
   pages: (),
   filename: none,
-  css: (),
+  css: ("main.css",),
   content,
 ) = {
   if filename == none {

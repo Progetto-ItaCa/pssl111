@@ -3,17 +3,23 @@ TYPST_COMPILE_FLAGS ?= --features html --format html --root=${PWD}
 TYPSTYLE ?= typstyle
 
 SRCS := $(wildcard src/[^_]*.typ)
+CSSS := $(wildcard src/*.css)
 LIBS := $(wildcard lib/*.typ)
-TGTS := $(patsubst src/%.typ, out/%.html, $(SRCS))
+TGTS := $(patsubst src/%.typ, out/%.html, $(SRCS)) \
+		$(patsubst src/%.css, out/%.css, $(CSSS))
 
 all: $(TGTS)
-    $(info Building $(TGTS))
+	$(info Building $(TGTS))
 
 out/%.html: src/%.typ $(LIBS)
 	@mkdir -p $(dir $@)
 	$(TYPST) compile \
 		--input filename=$(basename $(notdir $<)) \
 		$(TYPST_COMPILE_FLAGS) $< $@
+
+out/%.css: src/%.css
+	@mkdir -p $(dir $@)
+	@cp $< $@
 
 check: $(SRCS) $(LIBS)
 	for file in $^; do \
