@@ -29,7 +29,7 @@ The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on
   ]
 ]
 
-Note that the dates are not on a weekend, but on a #highlight[Thursday and Friday], unlike the usual PSSL tradition.
+Note that the dates are not on a weekend, but on a #highlight[Thursday and Friday,] unlike the usual PSSL tradition.
 Since it is outside term time, we expect it will not be a problem for most participants.
 
 #html.elem("blockquote")[
@@ -47,7 +47,7 @@ Since it is outside term time, we expect it will not be a problem for most parti
 
 == Registration
 
-To register for PSSL 111, please fill out the following #highlight[#link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form]].
+To register for PSSL 111, please fill out the following #highlight[#link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form].]
 There are no registration fees, but we kindly ask that you complete the registration form by August 28th at the latest.
 
 When registering, you'll be given the option to submit a talk proposal.
