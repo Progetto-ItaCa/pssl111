@@ -38,3 +38,7 @@ footer div {
   display: flex;
   justify-content: flex-end;
 }
+
+body > main {
+  max-width: 800px;
+}
