@@ -15,7 +15,7 @@ The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on
     #html.elem(
       "img",
       attrs: (
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_Panorama.jpg/512px-Bologna_Panorama.jpg?20180411072019",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_Panorama.jpg/1024px-Bologna_Panorama.jpg",
         alt: "Bologna Panorama by Ввласенко, CC BY-SA 3.0 via Wikimedia Commons",
       ),
     )
