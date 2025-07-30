@@ -54,4 +54,6 @@ We especially encourage PhD students and young researchers to submit their work.
 
 == Local organizers
 
-The local organizers are #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent) and #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna). Please feel free to contact us if you have questions or suggestions.
+- #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent), email: #link("mailto:matteo.capucci@gmail.com")[matteo.capucci\@gmail.com]
+- #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna), email: #link("mailto:vikraman.choudhury@unibo.it")[vikraman.choudhury\@unibo.it]
+Please feel free to contact us if you have questions or suggestions.
