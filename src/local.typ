@@ -44,16 +44,37 @@ The meeting will take place at #highlight[Aula Ercolani E2] on #link("https://ww
 
 The public entrance to the building is on Mura Anteo Zamboni, gate marked 2B.
 
-== Food options around the venue
+== Transportation
 
-#list[
-  - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[University cantine]
-  - #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] — Cafè & lunch place near venue
-  - #link("https://maps.app.goo.gl/Lq64L9jmTp8oGfnu8")[Via Mascarella] — a street full of student life and many interesting food and drink places (vegan too, look for Estravagario)
-  - #link("https://maps.app.goo.gl/gZntkz7pMebxp85H6")[Mercato di Piazza Aldrovandi] — lively plaza with lots of street food and drinks options
-  - #link("https://maps.app.goo.gl/v9H4T6oyqfPYKzEK9")[Osteria Boccaindosso]
-  - #link("https://maps.app.goo.gl/XJKsUz1sj9QxsoCcA")[Trattoria Trebbi]
-]
+- *Bologna Guglielmo Marconi Airport*. The quickest way to get from Bologna Airport to the city is to take #link("https://www.marconiexpress.it/en/")[Marconi Express] which will take you to the Bologna Central train station. You could also take a private taxi, which are not usually too expensive, but require a bit of waiting. Uber Black is the only other ride-sharing service available.
 
+- *Bologna Central Station*. The city centre is within a short walking distance from the train station, and also well-connected by public transport, see for example, #link("https://citymapper.com/")[Citymapper].
 
+The venue is a short walk from the city center, or easily reachable by public transport.
 
+== Food
+
+We will have coffee breaks during the meeting, and will organise a social aperitivo & dinner on the first day.
+The dinner will be at #link("https://maps.app.goo.gl/3dqT9cX9EZZdaBUq6")[Buca San Petronio].
+
+Bologna is known for its rich culinary tradition, and there is no lack of options for traditional cuisine.
+However, it can be challenging to find places that cater to specific dietary requirements or preferences, so we have listed some options below, near the venue.
+
+- #html.elem("div")[University canteens (vegan options, student discount):]
+  - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[Piazza Puntoni]
+  - #link("https://maps.app.goo.gl/AnDUzdccJ15bcxr87")[Via Zanolini]
+
+- #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] - Cafè & lunch place
+
+- #link("https://maps.app.goo.gl/N3DKsehmPLwC44TF9")[Estravagario] - Vegan restaurant
+
+- #link("https://maps.app.goo.gl/X3RZGaeimHy1B5VXA")[Centro Natura] - Vegan & health food restaurant
+
+- #html.elem("div")[Nearby streets with interesting food and drink places:]
+  - #link("https://maps.app.goo.gl/Lq64L9jmTp8oGfnu8")[Via Mascarella]
+  - #link("https://maps.app.goo.gl/Cq5kXEL55dRLTJcz5")[Via Irnerio]
+  - #link("https://maps.app.goo.gl/gZntkz7pMebxp85H6")[Mercato di Piazza Aldrovandi]
+
+- #link("https://maps.app.goo.gl/Zeofn2MkXKHrujiB7")[*Vikraman's list*] of places to eat and drink in Bologna
+
+Feel free to ask us for suggestions and recommendations!
