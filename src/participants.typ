@@ -7,5 +7,13 @@
   site: site,
 )
 
-#html.elem("article")[Coming soon!]
-
+- Jonathan Male
+- Giuseppe Metere
+- Taiba Abid
+- Nathanael Arkor
+- Nicola Petrov
+- Davide Trotta
+- João J. Xarez
+- Fabio Pasquali
+- Maximilian Petrowitsch
+- Victoria Vollmer
