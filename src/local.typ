@@ -46,7 +46,7 @@ The public entrance to the building is on Mura Anteo Zamboni, gate marked 2B.
 
 == Transportation
 
-- *Bologna Guglielmo Marconi Airport*. The quickest way to get from Bologna Airport to the city is to take #link("https://www.marconiexpress.it/en/")[Marconi Express] which will take you to the Bologna Central train station. You could also take a private taxi, which are not usually too expensive, but require a bit of waiting. Uber Black is the only other ride-sharing service available.
+- *Bologna Guglielmo Marconi Airport*. The quickest way to get from Bologna Airport to the city is to take #link("https://www.marconiexpress.it/en/")[Marconi Express] which will take you to the Bologna Central train station. You could also take a private taxi, which are not usually too expensive, but require a bit of waiting. Uber Black is the only other ride-sharing service available. The airport is also quite small, and tends to get very busy, especially during peak hours and tourist season, so we recommend getting there early to make it through the security checks, if you're catching a flight.
 
 - *Bologna Central Station*. The city centre is within a short walking distance from the train station, and also well-connected by public transport, see for example, #link("https://citymapper.com/")[Citymapper].
 
@@ -64,7 +64,7 @@ However, it can be challenging to find places that cater to specific dietary req
   - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[Piazza Puntoni]
   - #link("https://maps.app.goo.gl/AnDUzdccJ15bcxr87")[Via Zanolini]
 
-- #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] - Cafè & lunch place
+- #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] - Café & lunch place
 
 - #link("https://maps.app.goo.gl/N3DKsehmPLwC44TF9")[Estravagario] - Vegan restaurant
 
