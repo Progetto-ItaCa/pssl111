@@ -43,3 +43,17 @@ The meeting will take place at #highlight[Aula Ercolani E2] on #link("https://ww
 ]
 
 The public entrance to the building is on Mura Anteo Zamboni, gate marked 2B.
+
+== Food options around the venue
+
+#list[
+  - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[University cantine]
+  - #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] — Cafè & lunch place near venue
+  - #link("https://maps.app.goo.gl/Lq64L9jmTp8oGfnu8")[Via Mascarella] — a street full of student life and many interesting food and drink places (vegan too, look for Estravagario)
+  - #link("https://maps.app.goo.gl/gZntkz7pMebxp85H6")[Mercato di Piazza Aldrovandi] — lively plaza with lots of street food and drinks options
+  - #link("https://maps.app.goo.gl/v9H4T6oyqfPYKzEK9")[Osteria Boccaindosso]
+  - #link("https://maps.app.goo.gl/XJKsUz1sj9QxsoCcA")[Trattoria Trebbi]
+]
+
+
+
