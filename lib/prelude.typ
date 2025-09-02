@@ -54,7 +54,7 @@
           attrs: (
             href: "#",
             title: "Toggle theme",
-            onclick: "document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light')",
+            onclick: "document.documentElement.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light'); return false;",
           ),
           {
             html.elem(
