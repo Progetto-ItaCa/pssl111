@@ -29,6 +29,7 @@ nav ul {
   }
   iframe {
     aspect-ratio: 16/10;
+    width: 100%;
   }
 }
 
