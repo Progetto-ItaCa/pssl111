@@ -50,11 +50,11 @@ main {
 }
 
 @container (inline-size >= 30em) {
-  @supports (text-wrap: pretty) and (hyphenate-limit-chars: 10) {
+  @supports (text-wrap: pretty) and (hyphenate-limit-chars: 8) {
     blockquote {
       text-align: justify;
       text-wrap: pretty;
-      hyphenate-limit-chars: 10;
+      hyphenate-limit-chars: 8;
       hyphens: auto;
     }
   }
