@@ -9,19 +9,19 @@
 #let event = (time, description, title: none, abstract: none) => {
   html.elem("div")[
     *#time.*
-    #if (title != none) [_#description._] else [#description.]
     #if (title != none) {
+      [_ #description _]
       html.elem("details")[
         #html.elem("summary")[#title]
         #if (abstract != none) {
           html.elem("blockquote")[#abstract]
         } else [TBA]
       ]
-    }
+    } else [#description]
   ]
 }
 
-=== September 4th
+== September 4th
 
 - #event("10.00 - 11.00", "Meet & greet over coffee")
 
@@ -29,6 +29,13 @@
     "11.00 - 12.00",
     "Victoria Vollmer",
     title: "Graded Monads, Graded Multicategories, and Graded Adjoint Logic",
+    abstract: [
+      This talk is an exploration into the categorical semantics of graded modal logics with the goal of formulating a graded adjoint logic such that each logic fragment corresponds to the internal language of a multicategory.
+
+      The goal of the project is to develop a framework such that the adjunctions connecting the logics correspond to adjunctions between the (graded) monads that define the multicategory.
+
+      We will touch on some of the foundational work that has been done towards this goal, such as: an LNL style system for a graded logic(mGL), the definitions of the 2-category of graded monads, multicategory models for graded logic, and an extension of the definition of generalized multicategories to graded monads.
+    ],
   )
 
 - #event("12.00 - 12.15", "Break")
@@ -100,7 +107,7 @@
 
 - #event("19.30", "Social dinner")
 
-=== September 5th
+== September 5th
 
 - #event("09.30 - 10.00", "Coffee")
 
