@@ -53,12 +53,15 @@ main {
 }
 
 @container (inline-size >= 30em) {
-  @supports (text-wrap: pretty) and (hyphenate-limit-chars: 8) {
+  @supports (text-wrap: pretty) and (hyphenate-limit-chars: 10) {
     blockquote {
       text-align: justify;
       text-wrap: pretty;
-      hyphenate-limit-chars: 8;
       hyphens: auto;
+      hyphenate-limit-chars: 10 3 4;
+      hyphenate-limit-lines: 2;
+      hyphenate-limit-last: always;
+      hyphenate-limit-zone: 8%;
     }
   }
 }
