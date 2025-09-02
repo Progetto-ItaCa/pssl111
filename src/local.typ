@@ -8,6 +8,7 @@
 )
 
 #show highlight: it => html.elem("mark", it)
+#show strike: it => html.elem("s", it)
 
 == Venue
 
@@ -20,6 +21,10 @@ The meeting will take place at #highlight[Aula Ercolani E2] on #link("https://ww
 
   40126 Bologna BO
 ]
+
+The public entrance to the building is on Mura Anteo Zamboni, gate marked 2B.
+
+Note, there are construction works ongoing on that particular street.
 
 #html.elem("figure")[
   #html.elem(
@@ -42,13 +47,11 @@ The meeting will take place at #highlight[Aula Ercolani E2] on #link("https://ww
   ]
 ]
 
-The public entrance to the building is on Mura Anteo Zamboni, gate marked 2B.
-
 == Transportation
 
 - *Bologna Guglielmo Marconi Airport*. The quickest way to get from Bologna Airport to the city is to take #link("https://www.marconiexpress.it/en/")[Marconi Express] which will take you to the Bologna Central train station. You could also take a private taxi, which are not usually too expensive, but require a bit of waiting. Uber Black is the only other ride-sharing service available. The airport is also quite small, and tends to get very busy, especially during peak hours and tourist season, so we recommend getting there early to make it through the security checks, if you're catching a flight.
 
-- *Bologna Central Station*. The city centre is within a short walking distance from the train station, and also well-connected by public transport, see for example, #link("https://citymapper.com/")[Citymapper].
+- *Bologna Central Station*. The city center is within a short walking distance from the train station, and well-connected by public transport, see for example, #link("https://citymapper.com/")[Citymapper].
 
 The venue is a short walk from the city center, or easily reachable by public transport.
 
@@ -60,9 +63,13 @@ The dinner will be at #link("https://maps.app.goo.gl/3dqT9cX9EZZdaBUq6")[Buca Sa
 Bologna is known for its rich culinary tradition, and there is no lack of options for traditional cuisine.
 However, it can be challenging to find places that cater to specific dietary requirements or preferences, so we have listed some options below, near the venue.
 
-- #html.elem("div")[University canteens (vegan options, student discount):]
-  - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[Piazza Puntoni]
-  - #link("https://maps.app.goo.gl/AnDUzdccJ15bcxr87")[Via Zanolini]
+- #html.elem("div")[#strike[
+    University canteens
+    (vegan options, student discount, #link("https://www.cimasristorazione.com/menu-mense/irnerio-bologna/")[menu]):
+  ]]
+  - #link("https://maps.app.goo.gl/UqWQPBEQkzf5VU9a7")[#strike[Piazza Puntoni]]
+  - #link("https://maps.app.goo.gl/AnDUzdccJ15bcxr87")[#strike[Via Zanolini]]
+  - Unfortunately, the university canteens are closed until the 5th.
 
 - #link("https://maps.app.goo.gl/5vHG2nDHLV33wVwu7")[Le Salentine] - Café & lunch place
 
