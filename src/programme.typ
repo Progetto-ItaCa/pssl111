@@ -35,6 +35,13 @@
       The goal of the project is to develop a framework such that the adjunctions connecting the logics correspond to adjunctions between the (graded) monads that define the multicategory.
 
       We will touch on some of the foundational work that has been done towards this goal, such as: an LNL style system for a graded logic(mGL), the definitions of the 2-category of graded monads, multicategory models for graded logic, and an extension of the definition of generalized multicategories to graded monads.
+
+      References
+
+      [1] Victoria Vollmer, Danielle Marshall, Harley Eades III, Dominic Orchard. A Mixed Linear and Graded Logic: Proofs, Terms, and Models. 33rd EACSL Annual Conference on Computer Science Logic (CSL 2025).
+
+      https://arxiv.org/abs/2401.17199.
+
     ],
   )
 
