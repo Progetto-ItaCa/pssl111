@@ -136,7 +136,11 @@
 - #event(
     "11.15 - 12.15",
     "Matteo Capucci",
-    title: "TBD",
+    title: "A hyperdoctrine for soft quantification",
+    abstract: [
+      We describe a model of predicate logic featuring a family of non-additive ('soft') quantifiers which converge to the usual ('hard') first-order quantifiers.
+      Remarkably, all the soft quantifiers satisfy an analogue of Lawvere's adjoint characterization of quantifiers.
+    ],
   )
 
 - #event("12.15 - 12.30", "Picture time")
