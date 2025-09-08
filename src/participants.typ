@@ -7,13 +7,25 @@
   site: site,
 )
 
-- Jonathan Male
-- Giuseppe Metere
-- Taiba Abid
-- Nathanael Arkor
-- Nicola Petrov
-- Davide Trotta
+
+#html.elem("div", attrs: (class: "banner"))[
+  #html.elem("figure")[
+    #html.elem("img", attrs: (
+      src: "./pssl111_group_pic.jpeg",
+      alt: "PSSL11 group picture, with participants appearing from left to right as listed below:",
+    )
+  ]
+]
+
+From left to right:
+
 - João J. Xarez
-- Fabio Pasquali
 - Maximilian Petrowitsch
+- Nicola Petrov
+- Vikraman Choudhury
+- Giuseppe Metere
+- Nathanael Arkor
+- Fabio Pasquali
+- Mattei Capucci
+- Davide Trotta
 - Victoria Vollmer
