@@ -8,7 +8,7 @@
 
 #show highlight: it => html.elem("mark", it)
 
-The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on #highlight[Sep 4th and Sep 5th 2025] in Bologna, Italy.
+The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) took place on #highlight[Sep 4th and Sep 5th 2025] in Bologna, Italy.
 
 #html.elem("div", attrs: (class: "banner"))[
   #html.elem("figure")[
@@ -26,8 +26,8 @@ The 111th Peripatetic Seminar on Sheaves and Logic (PSSL 111) will take place on
   ]
 ]
 
-Note that the dates are not on a weekend, but on a #highlight[Thursday and Friday,] unlike the usual PSSL tradition.
-Since it is outside term time, we expect it will not be a problem for most participants.
+Note that the dates were not on a weekend, but on a #highlight[Thursday and Friday,] unlike the usual PSSL tradition.
+// Since it is outside term time, we expect it will not be a problem for most participants.
 
 #html.elem("blockquote")[
   #link(
@@ -42,18 +42,18 @@ Since it is outside term time, we expect it will not be a problem for most parti
   #link("https://sites.google.com/view/pssl-107-athens?pli=1/")[Athens].
 ]
 
-== Registration
+// == Registration
 
-To register for PSSL 111, please fill out the following #highlight[#link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form].]
-There are no registration fees, but we kindly ask that you complete the registration form by August 28th at the latest.
+// To register for PSSL 111, please fill out the following #highlight[#link("https://forms.gle/xW1DXcghoG7etdAT8")[registration form].]
+// There are no registration fees, but we kindly ask that you complete the registration form by August 28th at the latest.
 
-When registering, you'll be given the option to submit a talk proposal.
-We seek proposals for contributed talks on all aspects of category theory and its applications.
-Talks about work in progress are also warmly welcomed.
-We especially encourage PhD students and young researchers to submit their work.
+// When registering, you'll be given the option to submit a talk proposal.
+// We seek proposals for contributed talks on all aspects of category theory and its applications.
+// Talks about work in progress are also warmly welcomed.
+// We especially encourage PhD students and young researchers to submit their work.
 
 == Local organizers
 
 - #link("https://matteocapucci.wordpress.com")[Matteo Capucci] (Independent), email: #link("mailto:matteo.capucci@gmail.com")[matteo.capucci\@gmail.com]
 - #link("https://vikraman.org")[Vikraman Choudhury] (Università di Bologna), email: #link("mailto:vikraman.choudhury@unibo.it")[vikraman.choudhury\@unibo.it]
-Please feel free to contact us if you have questions or suggestions.
+//Please feel free to contact us if you have questions or suggestions.
