@@ -4,9 +4,11 @@ TYPSTYLE ?= typstyle
 
 SRCS := $(wildcard src/[^_]*.typ)
 CSSS := $(wildcard src/*.css)
+BINS := $(wildcard bin/*.jpg)
 LIBS := $(wildcard lib/*.typ)
 TGTS := $(patsubst src/%.typ, out/%.html, $(SRCS)) \
-		$(patsubst src/%.css, out/%.css, $(CSSS))
+		$(patsubst src/%.css, out/%.css, $(CSSS)) \
+		$(patsubst bin/%.jpg, out/%.jpg, $(BINS))
 
 all: $(TGTS)
 	$(info Building $(TGTS))
@@ -19,6 +21,10 @@ out/%.html: src/%.typ $(LIBS)
 		$(TYPST_COMPILE_FLAGS) $< $@
 
 out/%.css: src/%.css
+	@mkdir -p $(dir $@)
+	@cp $< $@
+
+out/%.jpg: bin/%.jpg
 	@mkdir -p $(dir $@)
 	@cp $< $@
 
